@@ -15,6 +15,22 @@ const struct VBDeploymentInfo VersionBitsDeploymentInfo[Consensus::MAX_VERSION_B
         /*.name =*/ "taproot",
         /*.gbt_force =*/ true,
     },
+    {
+        /*.name =*/ "118",
+        /*.gbt_force =*/ false,
+    },
+    {
+        /*.name =*/ "119",
+        /*.gbt_force =*/ false,
+    },
+    {
+        /*.name =*/ "300",
+        /*.gbt_force =*/ false,
+    },
+    {
+        /*.name =*/ "301",
+        /*.gbt_force =*/ false,
+    },
 };
 
 std::string DeploymentName(Consensus::BuriedDeployment dep)
